@@ -6,7 +6,7 @@ Your business is visible online — and I can build you a website (for $500)
 ## Body
 Hi [First Name],
 
-I've been following EnviroServe and love what you're doing in EnviroServe. I noticed you don't have a website yet — which means most customers search online before they ever call, and right now you're invisible to a large portion of that search traffic.
+I've been following EnviroServe in Mesa and love what you're doing. I noticed you don't have a website yet — which means most customers search online before they ever call, and right now you're invisible to a large portion of that search traffic.
 
 I build clean, simple, mobile-friendly websites for local businesses that want to look professional and get found online. For a one-time fee of $500, I'll deliver a fully designed, mobile-responsive site tailored to your business — including contact info, services, location, and a way for customers to reach you.
 
