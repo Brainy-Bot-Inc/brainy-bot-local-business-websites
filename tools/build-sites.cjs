@@ -115,7 +115,7 @@ function scheduleOf(b) {
 function hoursSummary(b) {
   return b.hours
     .filter(([label]) => daysOf(label))
-    .map(([label, val]) => label.replace(/([A-Za-z])[a-z]+/g, "$1") + " " + val)
+    .map(([label, val]) => label.replace(/\b[A-Za-z]{3,}/g, (w) => w.slice(0, 3)) + " " + val)
     .join(", ");
 }
 
