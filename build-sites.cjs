@@ -1,3 +1,7 @@
+// SUPERSEDED - this generates the old single-page sites and will OVERWRITE
+// the current multi-page sites. Use: node tools/build-sites.cjs
+// Verify with:            node tools/verify.cjs
+
 const fs = require("fs");
 const path = require("path");
 

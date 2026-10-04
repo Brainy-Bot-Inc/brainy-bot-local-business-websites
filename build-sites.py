@@ -1,3 +1,6 @@
+# SUPERSEDED - this generates the old single-page sites and will OVERWRITE
+# the current multi-page sites. Use: node tools/build-sites.cjs
+
 #!/usr/bin/env python3
 """
 Generate complete, self-contained websites for each local business.

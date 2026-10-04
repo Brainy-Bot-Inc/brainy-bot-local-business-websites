@@ -1,75 +1,49 @@
-# Local Business Website Lead List
-# Businesses that appear to have NO website / online presence
-# Each entry: business name, location/handle, evidence of no website, status
+# Lead List - Woodburn, Oregon area (within 50 miles)
+# Revised October 2026. Full research and source URLs: real-businesses.md
 
-- Business: Brighton Bistro
-  Location: Scottsdale
-  Has_Website: No
-  Evidence: No domain/website listed in local business listings
-  Status: Lead
+## Summary
 
-- Business: Classic Cars Classic Cars Palace
-  Location: Phoenix
-  Has_Website: No
-  Evidence: Listed locally without website
-  Status: Lead
+6 businesses were researched. **Only 2 are genuine no-website leads.** The other
+4 turned out to already run a live website, so they should not receive a
+"you don't have a website" pitch.
 
-- Business: EnviroServe
-  Location: Mesa
-  Has_Website: No
-  Evidence: No web presence found
-  Status: Lead
+| Status | Business | Phone | Email |
+|--------|----------|-------|-------|
+| QUALIFIED | Kings Cupboard | (503) 981-3557 | |
+| QUALIFIED | Sasquatch Services LLC | (541) 285-2353 | nic@sasquatchservicesllc.com |
+| DISQUALIFIED - has site | Barkley's Jewelry and Pawn | (503) 982-2033 | |
+| DISQUALIFIED - has site | Ross Mobile Mechanic, LLC | (503) 442-7907 | allfixx247@gmail.com |
+| DISQUALIFIED - has site | Key Home Improvements | (503) 580-6868 | yoursalemhandyman@gmail.com |
+| DISQUALIFIED - has site | Trapala Restaurant | (503) 981-3000 | strapala@hotmail.com |
 
-- Business: GreenTech Recycling
-  Location: Gilbert
-  Has_Website: No
-  Evidence: No website listed
-  Status: Lead
+## Why they were disqualified
 
-- Business: Ironclad Locksmith
-  Location: Glendale
-  Has_Website: No
-  Evidence: No website found
-  Status: Lead
+- **Barkley's Jewelry and Pawn** - barkleyspawn.com resolves and redirects to
+  pawncept.com, a live storefront listing the Woodburn store.
+- **Ross Mobile Mechanic, LLC** - rossmobilepdx.com is live and shares the same
+  contact email and phone line as the Woodburn listing.
+- **Key Home Improvements** - guttersforsale.com is live, titled
+  "Key Home Improvements LLC", showing CCB 228717 and 503-580-6868.
+- **Trapala Restaurant** - trapala.com is live with a full menu and online
+  ordering.
 
-- Business: Maple Grove Chiropractic
-  Location: Chandler
-  Has_Website: No
-  Evidence: No web presence
-  Status: Lead
+## What each folder contains
 
-- Business: National Pest Control
-  Location: Peoria
-  Has_Website: No
-  Evidence: No website listed
-  Status: Lead
+Every folder under `sites/` has **four pages** plus a WordPress copy, even for
+the disqualified leads, so you can preview what a $500 build looks like for
+any of them:
 
-- Business: Pinnacle Roofing
-  Location: Tempe
-  Has_Website: No
-  Evidence: No website found
-  Status: Lead
+- `index.html`, `services.html`, `about.html`, `contact.html`
+  - the full multi-page site for GitHub Pages (stylesheet: `../assets/site.css`)
+- `images/` - the business's own photos and logo, provenance-checked
+- `wordpress/` - the same four pages as self-contained files for a WordPress
+  Custom HTML block (CSS, JS and images all inlined)
+- `README.md` - verified contact details, hours, website status
+- `email.md` - outreach draft ($500 offer)
 
-- Business: Sunrise Cleaning Services
-  Location: Scottsdale
-  Has_Website: No
-  Evidence: No web presence
-  Status: Lead
+Rebuild with `node tools/build-sites.cjs`; check with `node tools/verify.cjs`.
 
-- Business: Valley Auto Repair
-  Location: Avondale
-  Has_Website: No
-  Evidence: No website listed
-  Status: Lead
+## Next step
 
-- Business: Zenith Accounting & Tax
-  Location: Peoria
-  Has_Website: No
-  Evidence: No web presence
-  Status: Lead
-
-- Business: Zenith Legal Services
-  Location: Phoenix
-  Has_Website: No
-  Evidence: No website found
-  Status: Lead
+Find replacements for the 4 disqualified leads so the list is back to 6
+qualified no-website businesses in the Woodburn area.
