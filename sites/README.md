@@ -8,12 +8,12 @@ verified in October 2026 by resolving each domain and reading the destination pa
 
 | Business | Website status |
 |----------|----------------|
-| [Barkley's Jewelry and Pawn](Barkley's%20Jewelry%20and%20Pawn/) | HAS WEBSITE (barkleyspawn.com) |
-| [Ross Mobile Mechanic, LLC](Ross%20Mobile%20Mechanic,%20LLC/) | HAS WEBSITE (rossmobilepdx.com) |
-| [Key Home Improvements](Key%20Home%20Improvements/) | HAS WEBSITE (guttersforsale.com) |
-| [Kings Cupboard](Kings%20Cupboard/) | **NO WEBSITE - qualified lead** |
-| [Sasquatch Services LLC](Sasquatch%20Services%20LLC/) | **NO LIVE SITE - qualified lead** |
-| [Trapala Restaurant](Trapala%20Restaurant/) | HAS WEBSITE (trapala.com) |
+| [Barkley's Jewelry and Pawn](barkleys-jewelry-and-pawn/) | HAS WEBSITE (barkleyspawn.com) |
+| [Ross Mobile Mechanic, LLC](ross-mobile-mechanic/) | HAS WEBSITE (rossmobilepdx.com) |
+| [Key Home Improvements](key-home-improvements/) | HAS WEBSITE (guttersforsale.com) |
+| [Kings Cupboard](kings-cupboard/) | **NO WEBSITE - qualified lead** |
+| [Sasquatch Services LLC](sasquatch-services/) | **NO LIVE SITE - qualified lead** |
+| [Trapala Restaurant](trapala-restaurant/) | HAS WEBSITE (trapala.com) |
 
 Only **Kings Cupboard** and **Sasquatch Services LLC** are genuine no-website
 prospects. See `../business-leads.md` for why the other four were disqualified.

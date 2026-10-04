@@ -23,7 +23,7 @@ function check(cond, msg) {
 }
 
 for (const b of DATA) {
-  const dir = path.join(SITES, b.name);
+  const dir = path.join(SITES, b.slug);
   const wp = path.join(dir, "wordpress");
   const imgDir = path.join(dir, "images");
   const tag = b.name;
@@ -309,6 +309,17 @@ for (const b of DATA) {
 // shared assets
 check(fs.existsSync(path.join(SITES, "assets", "site.css")), "shared site.css");
 check(fs.existsSync(path.join(SITES, "assets", "site.js")), "shared site.js");
+
+// the public landing page must link every business's slug folder
+const landing = fs.existsSync(path.join(ROOT, "index.html"))
+  ? fs.readFileSync(path.join(ROOT, "index.html"), "utf8")
+  : "";
+for (const b of DATA) {
+  check(
+    landing.includes(`sites/${b.slug}/index.html`),
+    `landing page links sites/${b.slug}/index.html`
+  );
+}
 
 let o = 0, c = 0;
 for (const ch of css) { if (ch === "{") o++; if (ch === "}") c++; }

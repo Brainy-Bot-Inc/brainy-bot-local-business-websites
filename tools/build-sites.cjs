@@ -588,7 +588,7 @@ ${footerBlock(b)}`;
   // The business's own logo: a real file in pages mode, a data URI in the
   // self-contained WordPress copy.
   if (b.logo) {
-    const logoPath = path.join(SITES, b.name, "images", b.logo);
+    const logoPath = path.join(SITES, b.slug, "images", b.logo);
     doc = doc.replace("{{LOGO}}", urlOf(logoPath));
   }
   doc = doc.replace(/\{\{LOGO\}\}/g, "");
@@ -785,7 +785,7 @@ function main() {
   let built = 0;
 
   for (const b of DATA) {
-    const outDir = path.join(SITES, b.name);
+    const outDir = path.join(SITES, b.slug);
     const imgDir = path.join(outDir, "images");
     const wpDir = path.join(outDir, "wordpress");
 
